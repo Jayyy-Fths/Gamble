@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2rem;
+    color: #3b82f6;
+}
+
+.slot-machine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reel-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.reel {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3b82f6;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
+    transition: transform 0.3s ease-in-out;
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.spin-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px;
+    font-size: 1rem;
+}
+
+.spin-button:hover {
+    background-color: #1e40af;
+}
+
+.name-input {
+    width: 250px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.name-list {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    list-style-type: none;
+    padding: 0;
+}
+
+.name-item {
+    margin: 5px 0;
+    text-shadow: 0 0 5px rgba(59, 130, 246, 0.7);
+}
