@@ -1,84 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
-
+/* LeBron Themed Styles */
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Oswald', sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    font-family: 'Arial', sans-serif;
     text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.title {
-    font-size: 2rem;
-    color: #3b82f6;
+h1 {
+    font-family: 'Impact', sans-serif;
+    color: #f7b500; /* Gold color like the Lakers */
 }
 
-.slot-machine {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+h3 {
+    font-family: 'Arial Black', sans-serif;
+    color: #6a1b9a; /* Purple like the Lakers */
 }
 
-.reel-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
-.reel {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #3b82f6;
-    margin: 10px;
+.input-section, .list-section, .random-name-section {
+    background-color: #1e1e1e;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2);
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
-    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
 }
 
-.message {
-    font-size: 1.5rem;
-    margin-top: 10px;
+.input-section input, .input-section button {
+    font-size: 18px;
 }
 
-.spin-button {
-    background-color: #2563eb;
+.btn-primary {
+    background-color: #f7b500; /* Gold color */
+    border-color: #f7b500;
+}
+
+.btn-primary:hover {
+    background-color: #e0a800;
+}
+
+.btn-success {
+    background-color: #6a1b9a; /* Purple */
+    border-color: #6a1b9a;
+}
+
+.btn-success:hover {
+    background-color: #4a148c;
+}
+
+.list-group-item {
+    background-color: #2c2c2c;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-    margin: 20px;
-    font-size: 1rem;
 }
 
-.spin-button:hover {
-    background-color: #1e40af;
+#randomName {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-.name-input {
-    width: 250px;
-    padding: 8px;
-    border-radius: 5px;
-    border: none;
-    color: black;
-    margin-top: 10px;
+h3 {
+    font-family: 'Arial Black', sans-serif;
+    color: #6a1b9a; /* Purple */
 }
 
-.name-list {
-    margin-top: 10px;
-    font-size: 1.2rem;
-    list-style-type: none;
-    padding: 0;
-}
-
-.name-item {
-    margin: 5px 0;
-    text-shadow: 0 0 5px rgba(59, 130, 246, 0.7);
+img {
+    border: 5px solid #f7b500;
 }
